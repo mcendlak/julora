@@ -4,6 +4,8 @@ Statyczna strona (HTML/CSS/JS), gotowa do hostingu na GitHub Pages.
 
 ## Do uzupełnienia przed publikacją
 
+- **Blokada wyszukiwarek** – usuń `<meta name="robots" content="noindex, nofollow">` z `index.html`
+  (dodana tylko na czas wersji poglądowej, żeby Google jej nie indeksował).
 - **Telefon / e-mail** – obecnie `+48 123 456 789` i `biuro@julora.pl` (z makiety), w `index.html`.
 - **NIP / KRS** – stopka, `index.html`.
 - **Klucz formularza** – `WPISZ-KLUCZ-WEB3FORMS` w `index.html` (patrz niżej).

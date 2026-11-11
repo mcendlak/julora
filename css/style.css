@@ -849,7 +849,10 @@ p { margin: 0 0 1.1em; }
   .about__grid,
   .contact__grid,
   .offer-faq { grid-template-columns: 1fr; }
-  .about__media { min-height: 0; max-width: 560px; aspect-ratio: 4 / 3; }
+  /* in-flow image gives the box its height: Safari ignores aspect-ratio
+     on a stretched grid item whose only content is absolutely positioned */
+  .about__media { min-height: 0; max-width: 560px; }
+  .about__media img { position: static; height: auto; aspect-ratio: 4 / 3; }
   .offer-faq__intro { position: static; }
   .stats__grid { grid-template-columns: repeat(2, 1fr); row-gap: 44px; }
   .stat:nth-child(3) { border-left: 0; }

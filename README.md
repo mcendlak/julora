@@ -8,7 +8,7 @@ Statyczna strona (HTML/CSS/JS), gotowa do hostingu na GitHub Pages.
   (dodana tylko na czas wersji poglądowej, żeby Google jej nie indeksował).
 - **Telefon / e-mail** – obecnie `+48 123 456 789` i `biuro@julora.pl` (z makiety), w `index.html`.
 - **NIP / KRS** – stopka, `index.html`.
-- **Klucz formularza** – `WPISZ-KLUCZ-WEB3FORMS` w `index.html` (patrz niżej).
+- **Klucz formularza** – w `index.html` (pole `access_key`) jest klucz testowy wykonawcy; podmień go na klucz założony na adres klienta (patrz niżej).
 - **Liczby i treści** – sekcja ze statystykami i „Dlaczego my?” – do potwierdzenia z klientem.
 
 ## Formularz kontaktowy (Web3Forms)
